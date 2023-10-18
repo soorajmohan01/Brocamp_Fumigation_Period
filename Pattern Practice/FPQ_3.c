@@ -1,0 +1,32 @@
+/*
+*
+*
+***
+**
+**
+******
+***
+***
+***
+*********
+*/
+#include<stdio.h>
+void main()
+{
+    int i,j,k,m;
+    for(i=1;i<=3;i++)
+    {
+        i==1?(m=1):(m=0);
+        for(j=1;j<=i*i+m;j++)
+        {
+            printf("*");
+            if(j%i==0)
+                printf("\n");
+        }
+        for(k=1;k<=3*i;k++)
+        {
+            printf("*");
+        }
+        printf("\n");
+    }
+}

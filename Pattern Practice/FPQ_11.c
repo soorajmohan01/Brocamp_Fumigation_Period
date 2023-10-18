@@ -1,0 +1,30 @@
+/*
+*
+**
+*
+*
+*
+****
+*
+******
+*
+*
+*
+********
+*/
+#include<stdio.h>
+void main()
+{
+    int i,j,k,m;
+    for(i=1;i<=4;i++)
+    {
+        i%2!=0?(m=1):(m=3);
+        for(j=1;j<=m;j++)
+        {
+            printf("*\n");
+        }
+        for(k=1;k<=2*i;k++)
+            printf("*");
+        printf("\n");
+    }
+}
